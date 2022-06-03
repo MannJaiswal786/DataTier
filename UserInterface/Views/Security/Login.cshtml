@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("Login", "Security", FormMethod.Post))
+{
+<div class="form-horizontal">
+    <h4>User</h4>
+    @if (TempData["ErrorMsg"] != null)
+    {
+        <h4 class="text-danger">@TempData["ErrorMsg"].ToString()</h4>
+    }
+    <hr />
+    <div class="form-group">
+        <label class="control-label">Email</label>
+        <div class="col-md-10">
+            <input type="text" name="email" value="" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Password</label>
+        <div class="col-md-10">
+            <input type="password" name="password" value="" class="form-control" />
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="SignIn" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
