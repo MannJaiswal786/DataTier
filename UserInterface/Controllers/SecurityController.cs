@@ -50,7 +50,7 @@ namespace UserInterface.Controllers
         public ActionResult Register(string username, string email, string password)
         {
             User obj = new User();
-            obj.UserId = 3;
+          //  obj.UserId = 3;
             obj.Email = email;
             obj.UserName = username;
             obj.Password = password;

@@ -7,7 +7,7 @@
       <Diagram DiagramId="5656e777403348d2b288594fdc2c2c8e" Name="Diagram1">
         <EntityTypeShape EntityType="DbFirstModel.Category" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="DbFirstModel.Product" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbFirstModel.User" Width="1.5" PointX="0.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirstModel.User" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
         <AssociationConnector Association="DbFirstModel.FK_Products_Products" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

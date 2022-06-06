@@ -1,5 +1,3 @@
-C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.csproj.AssemblyReference.cache
-C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\UserInterface.dll.config
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\UserInterface.dll
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\UserInterface.pdb
@@ -87,6 +85,8 @@ C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\Antlr3.Runtime.pdb
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\DAL.pdb
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\bin\DAL.dll.config
+C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.csproj.AssemblyReference.cache
+C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.dll
 C:\Users\mannj\Downloads\Class 2\DataTier\UserInterface\obj\Debug\UserInterface.pdb
