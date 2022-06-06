@@ -4,12 +4,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h3>Register</h3>
+
 @using (Html.BeginForm("Register", "Security", FormMethod.Post))
 {
     <form>
 <div class="form-horizontal">
-    <h4>User</h4>
+    <br>
+    <h4>Register User</h4>
     @if (TempData["ErrorMsg"] != null)
     {
         <h4 class="text-danger">@TempData["ErrorMsg"].ToString()</h4>
@@ -18,32 +19,33 @@
 
     
     <div class="form-group">
-        <label class="control-label">UserName</label>
+        <label class="control-label">UserName:</label>
 
-        <div class="col-md-10">
+        <div class="col-md-6">
             <input type="text" name="username" value="" class="form-control" />
         </div>
     </div>
         
 
     <div class="form-group">
-        <label class="control-label">Email</label>
-        <div class="col-md-10">
+        <label class="control-label">Email:</label>
+        <div class="col-md-6">
+            
             <input type="text" name="email" value="" class="form-control" />
         </div>
     </div>
 
     <div class="form-group">
-        <label class="control-label">Password</label>
-        <div class="col-md-10">
+        <label class="control-label">Password:</label>
+        <div class="col-md-6">
             <input type="password" name="password" value="" class="form-control" />
         </div>
     </div>
 
-
+    <br>
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="SignUp" class="btn btn-default" />
+            <input type="submit" value="SignUp" class="btn btn-default btn-outline-dark" />
         </div>
     </div>
 </div>
